@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import profile from "../photos/profile.jpg";
+import Pdf from "../photos/Lataria-Gega.pdf";
 import "./Home.css";
 
 export default function Home() {
@@ -39,7 +40,14 @@ export default function Home() {
             <p className="about-container__input">
               To see my Resume, click the button below.
             </p>
-            <button className="about-container__button">View Resume</button>
+            <a
+              className="about-container__button"
+              href={Pdf}
+              rel="noreferrer"
+              target="_blank"
+            >
+              View Resume
+            </a>
           </div>
         </div>
       </div>
