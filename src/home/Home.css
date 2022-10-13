@@ -1,0 +1,15 @@
+.home-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name-container {
+    font-size: 2vw;
+    margin-left: 5vw;
+}
+
+.name-container__input {
+    color: orangered;
+}
