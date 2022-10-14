@@ -51,7 +51,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="projects-container">projects</div>
+      <div className="projects-container">
+        <h1 className="about-container__title">Projects</h1>
+      </div>
     </div>
   );
 }
