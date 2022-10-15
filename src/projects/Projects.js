@@ -2,6 +2,7 @@ import React from "react";
 import forwarder from "../photos/forwarder.png";
 import shop from "../photos/online-shop.png";
 import optimo from "../photos/optimo.png";
+import "./Projects.css";
 
 export default function Projects() {
   return (

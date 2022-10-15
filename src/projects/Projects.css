@@ -1,0 +1,57 @@
+.projects-container {
+    text-align: center;
+    height: 50vh;
+    font-size: 2vw;
+}
+
+.project-container__flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5vw;
+    margin-bottom: 5vw;
+}
+
+.see-live-button {
+    border: 3px solid #fff;
+    font-size: 1.8vw;
+    cursor: pointer;
+    color: rgba(255, 68, 0, .7);
+    border: 2px solid rgba(255, 68, 0, .7);
+    padding: 1vw 1.5vw;
+    text-decoration: none;
+}
+
+.see-live-button:hover {
+    transition: 1.5s;
+    left: 0;
+    background-color: rgba(255, 68, 0, .7);
+    border-color: 2px solid rgba(255, 68, 0, .7);
+    color: #fff;
+}
+
+.source-code-button {
+    text-decoration: none;
+    color: rgba(255, 68, 0, .7);
+    margin-left: 2vw;
+}
+
+.source-code-button:hover {
+    color: orangered;
+    display: inline-block;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.project-title {
+    border-bottom: 3px solid rgba(255, 68, 0, .7);
+}
+
+.project-input-container {
+    flex: 50vw;
+}
+
+.project-image {
+    width: 50vw;
+    flex: 50%;
+}

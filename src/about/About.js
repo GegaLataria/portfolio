@@ -1,6 +1,7 @@
 import React from "react";
 import profile from "../photos/profile.jpg";
 import Pdf from "../photos/Lataria-Gega.pdf";
+import "./About.css";
 
 export default function About() {
   return (
