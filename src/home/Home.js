@@ -1,9 +1,8 @@
 import React from "react";
 import { useRef } from "react";
-import profile from "../photos/profile.jpg";
-import Pdf from "../photos/Lataria-Gega.pdf";
 import "./Home.css";
 import Projects from "../projects/Projects";
+import About from "../about/About";
 
 export default function Home() {
   const ref = useRef(null);
@@ -25,32 +24,8 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <div className="about-container" ref={ref}>
-        <h1 className="about-container__title">About</h1>
-        <div className="about-container__flex">
-          <img
-            src={profile}
-            alt="profile"
-            className="about-container__image"
-          ></img>
-          <div>
-            <p className="about-container__input">
-              I'm a self-starting, hard-working React Developer.
-            </p>
-            <br />
-            <p className="about-container__input">
-              To see my Resume, click the button below.
-            </p>
-            <a
-              className="about-container__button"
-              href={Pdf}
-              rel="noreferrer"
-              target="_blank"
-            >
-              View Resume
-            </a>
-          </div>
-        </div>
+      <div ref={ref}>
+        <About />
       </div>
       <Projects />
     </div>
