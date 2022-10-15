@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../footer/Footer";
 import forwarder from "../photos/forwarder.png";
 import shop from "../photos/online-shop.png";
 import optimo from "../photos/optimo.png";
@@ -105,6 +106,7 @@ export default function Projects() {
           <img src={optimo} alt="project" className="project-image"></img>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
