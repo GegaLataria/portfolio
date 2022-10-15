@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import profile from "../photos/profile.jpg";
+import forwarder from "../photos/forwarder.png";
 import Pdf from "../photos/Lataria-Gega.pdf";
 import "./Home.css";
 
@@ -57,9 +58,28 @@ export default function Home() {
           <div className="project-container__flex">
             <div>
               <h2>Forwarder Web</h2>
-              <p>lorem ipsum</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                a libero ornare, ornare lorem id, mollis ex. Nulla facilisi.
+                Etiam placerat gravida quam quis iaculis. Duis mattis cursus
+                elit, sit amet mollis augue feugiat sed. Donec lacus orci,
+                eleifend a rutrum sit amet, volutpat et felis. Duis finibus
+                volutpat lectus, at euismod ante rhoncus eu. Morbi ac auctor ex.
+                Phasellus feugiat neque nunc, et aliquam magna posuere molestie.
+                Nulla dignissim vitae ante ut tincidunt. Vivamus placerat a
+                velit id semper.
+              </p>
+              <a
+                className="see-live-button"
+                href="https://forwarder-web.vercel.app/main"
+              >
+                See Live
+              </a>
+              <a href="https://github.com/GegaLataria/forwarder-web">
+                Source Code
+              </a>
             </div>
-            <img src={profile} alt="project" width={"300px"}></img>
+            <img src={forwarder} alt="project" width={"700px"}></img>
           </div>
         </div>
       </div>
