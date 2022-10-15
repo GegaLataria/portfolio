@@ -107,7 +107,7 @@ export default function Home() {
                 className="see-live-button"
                 target="_blank"
                 rel="noreferrer"
-                href="https://forwarder-web.vercel.app/main"
+                href="https://online-shop-five-beta.vercel.app/"
               >
                 See Live
               </a>
@@ -115,7 +115,7 @@ export default function Home() {
                 className="source-code-button"
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/GegaLataria/forwarder-web"
+                href="https://github.com/GegaLataria/online-shop"
               >
                 Source Code
               </a>
