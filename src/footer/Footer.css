@@ -18,3 +18,8 @@
     width: 50px;
     margin-left: 2vw;
 }
+
+.footer-text {
+    font-size: 15px;
+    color: rgb(172, 169, 169);
+}
