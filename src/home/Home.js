@@ -3,6 +3,7 @@ import { useRef } from "react";
 import profile from "../photos/profile.jpg";
 import forwarder from "../photos/forwarder.png";
 import shop from "../photos/online-shop.png";
+import optimo from "../photos/optimo.png";
 import Pdf from "../photos/Lataria-Gega.pdf";
 import "./Home.css";
 
@@ -57,7 +58,7 @@ export default function Home() {
         <h1 className="about-container__title">Projects</h1>
         <div>
           <div className="project-container__flex">
-            <div>
+            <div className="project-input-container">
               <h2 className="project-title">Forwarder Web</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -90,7 +91,7 @@ export default function Home() {
             <img src={forwarder} alt="project" className="project-image"></img>
           </div>
           <div className="project-container__flex">
-            <div>
+            <div className="project-input-container">
               <h2 className="project-title">Online Shop</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -123,7 +124,7 @@ export default function Home() {
             <img src={shop} alt="project" className="project-image"></img>
           </div>
           <div className="project-container__flex">
-            <div>
+            <div className="project-input-container">
               <h2 className="project-title">Optimo Group</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -153,7 +154,7 @@ export default function Home() {
                 Source Code
               </a>
             </div>
-            <img src={shop} alt="project" className="project-image"></img>
+            <img src={optimo} alt="project" className="project-image"></img>
           </div>
         </div>
       </div>

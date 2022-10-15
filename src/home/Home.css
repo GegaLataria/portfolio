@@ -118,10 +118,22 @@ body {
     margin-left: 2vw;
 }
 
+.source-code-button:hover {
+    color: orangered;
+    display: inline-block;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
 .project-title {
     border-bottom: 3px solid rgba(255, 68, 0, .7);
 }
 
+.project-input-container {
+    flex: 50vw;
+}
+
 .project-image {
     width: 50vw;
+    flex: 50%;
 }
