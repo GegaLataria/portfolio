@@ -4,7 +4,7 @@
     color: #fff;
     background-color: rgba(255, 68, 0, .55);
     padding: 1vw 5vw 3vw 5vw;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .about-container__title {
