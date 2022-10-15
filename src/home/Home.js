@@ -122,6 +122,39 @@ export default function Home() {
             </div>
             <img src={shop} alt="project" className="project-image"></img>
           </div>
+          <div className="project-container__flex">
+            <div>
+              <h2 className="project-title">Optimo Group</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                a libero ornare, ornare lorem id, mollis ex. Nulla facilisi.
+                Etiam placerat gravida quam quis iaculis. Duis mattis cursus
+                elit, sit amet mollis augue feugiat sed. Donec lacus orci,
+                eleifend a rutrum sit amet, volutpat et felis. Duis finibus
+                volutpat lectus, at euismod ante rhoncus eu. Morbi ac auctor ex.
+                Phasellus feugiat neque nunc, et aliquam magna posuere molestie.
+                Nulla dignissim vitae ante ut tincidunt. Vivamus placerat a
+                velit id semper.
+              </p>
+              <a
+                className="see-live-button"
+                target="_blank"
+                rel="noreferrer"
+                href="https://optimo-task.vercel.app/"
+              >
+                See Live
+              </a>
+              <a
+                className="source-code-button"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/GegaLataria/optimo-task-next.js"
+              >
+                Source Code
+              </a>
+            </div>
+            <img src={shop} alt="project" className="project-image"></img>
+          </div>
         </div>
       </div>
     </div>
