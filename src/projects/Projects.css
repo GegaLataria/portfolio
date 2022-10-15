@@ -51,6 +51,11 @@
     flex: 50vw;
 }
 
+.project-description {
+    /* list-style-type: none; */
+    text-align: left;
+}
+
 .project-image {
     width: 50vw;
     flex: 50%;
