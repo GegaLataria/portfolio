@@ -34,7 +34,7 @@ export default function Home() {
           ></img>
           <div>
             <p className="about-container__input">
-              I'm self-starting, hard-working React Developer.
+              I'm a self-starting, hard-working React Developer.
             </p>
             <br />
             <p className="about-container__input">
@@ -53,6 +53,15 @@ export default function Home() {
       </div>
       <div className="projects-container">
         <h1 className="about-container__title">Projects</h1>
+        <div>
+          <div className="project-container__flex">
+            <div>
+              <h2>Forwarder Web</h2>
+              <p>lorem ipsum</p>
+            </div>
+            <img src={profile} alt="project" width={"300px"}></img>
+          </div>
+        </div>
       </div>
     </div>
   );

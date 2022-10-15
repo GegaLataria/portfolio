@@ -38,7 +38,7 @@ body {
     text-align: center;
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
     color: #fff;
-    background-color: rgba(255, 68, 0, .7);
+    background-color: rgba(255, 68, 0, .55);
     padding: 1vw 5vw 3vw 5vw;
     border-radius: 10px;
 }
@@ -84,4 +84,9 @@ body {
     text-align: center;
     height: 50vh;
     font-size: 2vw;
+}
+
+.project-container__flex {
+    display: flex;
+    justify-content: space-around;
 }
