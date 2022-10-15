@@ -2,6 +2,7 @@ import React from "react";
 import { useRef } from "react";
 import profile from "../photos/profile.jpg";
 import forwarder from "../photos/forwarder.png";
+import shop from "../photos/online-shop.png";
 import Pdf from "../photos/Lataria-Gega.pdf";
 import "./Home.css";
 
@@ -57,7 +58,7 @@ export default function Home() {
         <div>
           <div className="project-container__flex">
             <div>
-              <h2>Forwarder Web</h2>
+              <h2 className="project-title">Forwarder Web</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 a libero ornare, ornare lorem id, mollis ex. Nulla facilisi.
@@ -71,15 +72,55 @@ export default function Home() {
               </p>
               <a
                 className="see-live-button"
+                target="_blank"
+                rel="noreferrer"
                 href="https://forwarder-web.vercel.app/main"
               >
                 See Live
               </a>
-              <a href="https://github.com/GegaLataria/forwarder-web">
+              <a
+                className="source-code-button"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/GegaLataria/forwarder-web"
+              >
                 Source Code
               </a>
             </div>
-            <img src={forwarder} alt="project" width={"700px"}></img>
+            <img src={forwarder} alt="project" className="project-image"></img>
+          </div>
+          <div className="project-container__flex">
+            <div>
+              <h2 className="project-title">Online Shop</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                a libero ornare, ornare lorem id, mollis ex. Nulla facilisi.
+                Etiam placerat gravida quam quis iaculis. Duis mattis cursus
+                elit, sit amet mollis augue feugiat sed. Donec lacus orci,
+                eleifend a rutrum sit amet, volutpat et felis. Duis finibus
+                volutpat lectus, at euismod ante rhoncus eu. Morbi ac auctor ex.
+                Phasellus feugiat neque nunc, et aliquam magna posuere molestie.
+                Nulla dignissim vitae ante ut tincidunt. Vivamus placerat a
+                velit id semper.
+              </p>
+              <a
+                className="see-live-button"
+                target="_blank"
+                rel="noreferrer"
+                href="https://forwarder-web.vercel.app/main"
+              >
+                See Live
+              </a>
+              <a
+                className="source-code-button"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/GegaLataria/forwarder-web"
+              >
+                Source Code
+              </a>
+            </div>
+            <img src={shop} alt="project" className="project-image"></img>
           </div>
         </div>
       </div>
