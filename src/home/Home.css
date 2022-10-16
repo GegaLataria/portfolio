@@ -17,7 +17,7 @@
 .name-container__button {
     border: 2px solid orangered;
     font-size: 1.8vw;
-    background-color: #fff;
+    background-color: rgba(250, 235, 215, 0.5);
     cursor: pointer;
     padding: 1vw 1.5vw;
 }

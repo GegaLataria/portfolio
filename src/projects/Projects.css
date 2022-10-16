@@ -51,6 +51,10 @@
     flex: 50%;
 }
 
+.projects {
+    color: rgba(255, 68, 0, 1);
+}
+
 .project-description {
     text-align: left;
 }

@@ -45,7 +45,6 @@
 
 @media only screen and (max-width: 768px) {
     .about-container {
-        /* margin-left: 2.5vw; */
         clip-path: none;
         padding-bottom: 30px;
     }
@@ -53,7 +52,7 @@
        display: inline-block;
     }
     .about-container__title {
-        font-size: 25px;
+        font-size: 30px;
     }
     .about-container__image {
         width: 250px;
