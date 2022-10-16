@@ -18,7 +18,7 @@ export default function About() {
             I'm a self-starting, hard-working React Developer.
           </p>
           <br />
-          <p className="about-container__input">
+          <p className="about-container__input bottom">
             To see my Resume, click the button below.
           </p>
           <a
