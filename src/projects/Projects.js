@@ -85,6 +85,7 @@ export default function Projects() {
                 Used getStaticPaths to pre-render pages that use dynamic routes
               </li>
               <li>Used getStaticProps to fetch data</li>
+              <li>Responsive on all screen sizes using CSS</li>
             </ul>
             <a
               className="see-live-button"
