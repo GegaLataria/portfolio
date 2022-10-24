@@ -20,6 +20,7 @@
     background-color: rgba(250, 235, 215, 0.5);
     cursor: pointer;
     padding: 1vw 1.5vw;
+    border-radius: 3px;
 }
 
 .name-container__button:hover {
@@ -36,6 +37,7 @@
         margin-left: 0;
     }
     .name-container__button {
-        font-size: 20px;
+        font-size: 23px;
+        padding: 5px 10px;
     }
 }

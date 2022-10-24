@@ -33,6 +33,7 @@
     color: #fff;
     padding: 1vw 1.5vw;
     text-decoration: none;
+    border-radius: 3px;
 }
 
 .about-container__button:hover {
