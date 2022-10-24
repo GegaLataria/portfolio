@@ -16,9 +16,9 @@ export default function Home() {
       <div className="home-page">
         <div className="name-container">
           <h1>
-            Hi, My name is <span className="name-container__input">{name}</span>
+            Hi, My name is <span className="name-container__input">{name},</span>
           </h1>
-          <h1>I'm a React Developer🚀</h1>
+          <h1>I'm a React Developer</h1>
           <button className="name-container__button" onClick={handleClick}>
             Know More
           </button>
